@@ -1,4 +1,4 @@
 #ignore out file
 *.out
 #ignore vscode config
-.vscode
+.vscode/
