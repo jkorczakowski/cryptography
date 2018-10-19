@@ -259,6 +259,11 @@ void crack_caesar_brute (char *string)
 
   char *affine_encryption(char *string, int a, int b)
   {
+     if(gcd(a,b) != 1) {
+      printf("ERROR! NWD(%d, %d) == %d != 1!\n",a,b,gcd(a,b));
+      exit(1);
+    }
+
     char *result = calloc(strlen(string+1), sizeof(char));
     int i;
     for (i = 0; i < strlen(string); i++) {
