@@ -1,0 +1,36 @@
+cat hash.pdf personal.txt | md5sum
+cat hash.pdf personal_.txt | md5sum
+5b4ec18c3ba89377750d63c7f7b2991f
+45ca50fc61e496800b94ef04e695253b
+Liczba bitów różniąca wyniki: 58 tj. 45.31% z 128
+
+cat hash.pdf personal.txt | sha1sum
+cat hash.pdf personal_.txt | sha1sum
+44fa54299f5f21af4f592fa2620fac2e40090444
+374d6c56d97ddfb31c41a988c08d0441b3fcbd1d
+Liczba bitów różniąca wyniki: 83 tj. 51.88% z 160
+
+cat hash.pdf personal.txt | sha224sum
+cat hash.pdf personal_.txt | sha224sum
+6ff8bfb7a93a718d542c935823c85cf7d47d39f3e0a9ea0b896e9e77
+c9e769141e127e1f7d22aee369ac4c5e02799664bbab291ca82b27fb
+Liczba bitów różniąca wyniki: 105 tj. 46.88% z 224
+
+cat hash.pdf personal.txt | sha256sum
+cat hash.pdf personal_.txt | sha256sum
+92d69b6683be9c261e5d3c2749c2a96584c688397389a905f6ac424feabc3fe2
+ba025a58f1fcbb142f871ae9b1a8aec8204cc6d5d25fca76ef41f226d54cc087
+Liczba bitów różniąca wyniki: 130 tj. 50.78% z 256
+
+cat hash.pdf personal.txt | sha384sum
+cat hash.pdf personal_.txt | sha384sum
+9c558b727c348e3d620a074a14fe95a619c158b92996ba850ed4504564176f788f9d9a290b0b0d09b09852b01d345823
+35f93be2ab7e5762b1d00be39eed93a2d77f95ddd0fa21786c6851c586fa2e6e9af6d9f01662163aaf453a1a5b5e9337
+Liczba bitów różniąca wyniki: 188 tj. 48.96% z 384
+
+cat hash.pdf personal.txt | sha512sum
+cat hash.pdf personal_.txt | sha512sum
+613dc2548aa0141b456b28464677bcfd49cfdd420c7df5024e395084251f1592576f1a618098e04cdfb84d8d6f5112a325bb9a56e87915d0c6aeef83b633ea67
+f5ea5378ef13d105cd03168e967503b153940452f058502e03d9d5bd5808f776d816a88d25df75f0f4ea07fbff2d98908ce9ec261145b11b7bafad8c7739ff40
+Liczba bitów różniąca wyniki: 244 tj. 47.66% z 512
+
